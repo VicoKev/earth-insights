@@ -3,6 +3,7 @@ import Navigation from './components/Navigation';
 import LandingPage from './components/LandingPage';
 import VideoGallery from './components/VideoGallery';
 import Quiz from './components/Quiz';
+import Simulation from './components/Simulation';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -16,7 +17,7 @@ function App() {
       case 'quiz':
         return <Quiz />;
       case 'simulations':
-        return <h1 className="p-8 text-white">Simulations Page - Coming Soon!</h1>;
+        return <Simulation />;
       default:
         return <LandingPage onNavigate={setCurrentPage} />;
     }
