@@ -39,7 +39,7 @@ export default function LandingPage({ onNavigate }: LandingPageProps) {
   return (
     <div className="min-h-screen bg-gradient-to-b from-black via-blue-950 to-black text-white">
       <div className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/2166711/pexels-photo-2166711.jpeg?auto=compress&cs=tinysrgb&w=1920')] bg-cover bg-center opacity-20"></div>
+        <div className="absolute inset-0 bg-[url('https://i.ibb.co/WWtPn16X/Generated-Image-October-05-2025-6-48-PM.png?auto=compress&cs=tinysrgb&w=1920')] bg-cover bg-center opacity-20"></div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20">
           <motion.div
