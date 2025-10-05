@@ -15,6 +15,8 @@ function App() {
         return <VideoGallery />;
       case 'quiz':
         return <Quiz />;
+      case 'simulations':
+        return <h1 className="p-8 text-white">Simulations Page - Coming Soon!</h1>;
       default:
         return <LandingPage onNavigate={setCurrentPage} />;
     }

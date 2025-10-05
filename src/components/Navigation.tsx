@@ -12,7 +12,8 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
   const navItems = [
     { id: 'home', label: 'Home' },
     { id: 'videos', label: 'Video Gallery' },
-    { id: 'quiz', label: 'Quiz' }
+    { id: 'quiz', label: 'Quiz' },
+    { id: 'simulations', label: 'Simulations' },
   ];
 
   return (
