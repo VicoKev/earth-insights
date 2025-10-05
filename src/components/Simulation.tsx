@@ -27,7 +27,7 @@ export default function Simulation({ onNavigate }: SimulationProps) {
           </motion.div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-red-500 to-blue-400 bg-clip-text text-transparent">
-            Terra Decisions
+            Simulation
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-300 mb-4 max-w-3xl mx-auto">
