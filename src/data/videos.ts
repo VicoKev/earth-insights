@@ -16,7 +16,7 @@ export const videos: Video[] = [
     description: 'Learn how Terra helps us see, understand, and protect our home planet.',
     videoUrl: 'https://www.youtube.com/embed/LGR1NOHGJOQ',
     thumbnail: 'https://i.ibb.co/ycXGdXPw/Generated-Image-October-05-2025-9-53-PM.png?auto=compress&cs=tinysrgb&w=800',
-    duration: '03:30',
+    duration: '03:25',
     category: 'Creator'
   },
   {
