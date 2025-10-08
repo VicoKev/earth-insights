@@ -13,7 +13,8 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
     { id: 'home', label: 'Home' },
     { id: 'videos', label: 'Video Gallery' },
     { id: 'quiz', label: 'Quiz' },
-    { id: 'simulations', label: 'Simulations' },
+    // { id: 'simulations', label: 'Simulations' },
+    { id: 'decisions', label: 'Terra Simulations' }
   ];
 
   return (

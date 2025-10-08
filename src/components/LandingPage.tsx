@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Satellite, Globe as Globe2, Eye, TrendingUp, Zap, Database } from 'lucide-react';
+import { Satellite, Globe as Globe2, Eye, TrendingUp, Zap, Database, Pyramid } from 'lucide-react';
 
 interface LandingPageProps {
   onNavigate: (page: string) => void;
@@ -39,7 +39,7 @@ export default function LandingPage({ onNavigate }: LandingPageProps) {
   return (
     <div className="min-h-screen bg-gradient-to-b from-black via-blue-950 to-black text-white">
       <div className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://i.ibb.co/WWtPn16X/Generated-Image-October-05-2025-6-48-PM.png?auto=compress&cs=tinysrgb&w=1920')] bg-cover bg-center opacity-20"></div>
+        <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/2166711/pexels-photo-2166711.jpeg?auto=compress&cs=tinysrgb&w=1920')] bg-cover bg-center opacity-20"></div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20">
           <motion.div
@@ -84,9 +84,20 @@ export default function LandingPage({ onNavigate }: LandingPageProps) {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => onNavigate('quiz')}
-                className="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold text-lg transition-colors"
+                className="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold text-lg transition-colors flex items-center gap-2"
               >
+                <Pyramid className="w-5 h-5" />
                 Take Quiz
+              </motion.button>
+
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={() => onNavigate('decisions')}
+                className="px-8 py-4 bg-green-600 hover:bg-green-700 rounded-lg font-semibold text-lg transition-colors flex items-center gap-2"
+              >
+                <Satellite className="w-5 h-5" />
+                Terra Simulations
               </motion.button>
             </div>
           </motion.div>
