@@ -83,7 +83,7 @@ export default function LandingPage({ onNavigate }: LandingPageProps) {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => onNavigate("videos")}
-                className="px-8 py-4 bg-red-600 hover:bg-red-700 rounded-lg font-semibold text-lg transition-colors flex items-center gap-2"
+                className="px-8 py-4 bg-red-600 hover:bg-red-700 rounded-lg font-semibold text-lg transition-colors flex items-center gap-2 shadow-lg shadow-red-500/20"
               >
                 <Zap className="w-5 h-5" />
                 Watch Videos
@@ -93,7 +93,7 @@ export default function LandingPage({ onNavigate }: LandingPageProps) {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => onNavigate("quiz")}
-                className="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold text-lg transition-colors flex items-center gap-2"
+                className="px-8 py-4 bg-slate-700 hover:bg-slate-600 rounded-lg font-semibold text-lg transition-colors flex items-center gap-2"
               >
                 <Pyramid className="w-5 h-5" />
                 Take Quiz
@@ -103,7 +103,7 @@ export default function LandingPage({ onNavigate }: LandingPageProps) {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => onNavigate("decisions")}
-                className="px-8 py-4 bg-green-600 hover:bg-green-700 rounded-lg font-semibold text-lg transition-colors flex items-center gap-2"
+                className="px-8 py-4 bg-indigo-700 hover:bg-indigo-600 rounded-lg font-semibold text-lg transition-colors flex items-center gap-2"
               >
                 <Satellite className="w-5 h-5" />
                 Terra Simulations
